@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="CLAUDE.openrouter.STATBAR — the Claude Code statusline that tells the truth about your OpenRouter spend">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140f0c"/>
+      <stop offset="0.55" stop-color="#1a1520"/>
+      <stop offset="1" stop-color="#121a2a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8835f"/>
+      <stop offset="1" stop-color="#f5b454"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+  <circle cx="1080" cy="60" r="230" fill="#e8835f" opacity="0.07"/>
+  <circle cx="160" cy="390" r="200" fill="#f5b454" opacity="0.04"/>
+
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="72" y="92" fill="#b0a2a0" font-size="20" letter-spacing="4">CLAUDE CODE · OPENROUTER · STATUSLINE</text>
+    <text x="72" y="160" fill="#ffffff" font-size="56" font-weight="700">CLAUDE.<tspan fill="url(#accent)">openrouter</tspan>.STATBAR</text>
+    <text x="72" y="206" fill="#e2d6d2" font-size="24">The statusline that finally tells the truth about your OpenRouter spend.</text>
+    <text x="72" y="240" fill="#b0a2a0" font-size="20">Статусбар Claude Code, который честно показывает траты в OpenRouter.</text>
+  </g>
+
+  <!-- terminal statusline strip -->
+  <g transform="translate(72,270)">
+    <rect x="0" y="0" width="1136" height="58" rx="12" fill="#07080c" stroke="#3a3040" stroke-width="2"/>
+    <text x="20" y="36" font-family="Consolas, Menlo, monospace" font-size="15.5" xml:space="preserve"><tspan fill="#d8d0cc">V4-flash-0731</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#8fbf8a">b $29.81</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#d9b36a">d $4.15</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#7fc4cf">P $0.0786 • $0.1572</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#8aa6d8">in 156.6k / out 291</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#b49ad8">c +0 ~15.5k $0.0002</tspan><tspan fill="#4a4550"> | </tspan><tspan fill="#6cc2ad">ctx 156.6k/1M (15%)</tspan></text>
+  </g>
+  <text x="72" y="368" fill="#8a7c7a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">real price · live balance · daily spend · honest context · 16/16 tests · Windows / macOS / Linux</text>
+
+  <text x="1208" y="368" fill="#6d5f66" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="2">REAILISM.DEV</text>
+</svg>
