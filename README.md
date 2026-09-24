@@ -129,7 +129,7 @@ cat example-payload.json | ANTHROPIC_AUTH_TOKEN="sk-or-v1-YOUR_KEY" bash statusl
 ## 🔍 How it works
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["🤖 Claude Code<br/>JSON payload on stdin"] --> B["⚙️ statusline-command.sh<br/>bash + python"]
     B --> C{"🗄️ ~/.claude/cache<br/>fresh?"}
     C -- yes --> E["🎨 one color-coded line"]
@@ -308,7 +308,7 @@ cat example-payload.json | ANTHROPIC_AUTH_TOKEN="sk-or-v1-ТВОЙ_КЛЮЧ" bas
 ## 🔍 Как это работает
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["🤖 Claude Code<br/>JSON-пайлоад в stdin"] --> B["⚙️ statusline-command.sh<br/>bash + python"]
     B --> C{"🗄️ ~/.claude/cache<br/>свежий?"}
     C -- да --> E["🎨 одна цветная строка"]
